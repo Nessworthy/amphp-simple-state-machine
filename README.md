@@ -1,5 +1,7 @@
 # Simple State Machine (for amphp)
 
+[![Build Status](https://travis-ci.org/Nessworthy/amphp-simple-state-machine.svg?branch=master)](https://travis-ci.org/Nessworthy/amphp-simple-state-machine)
+
 ## Requirements
 
 * php >= 7.4
