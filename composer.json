@@ -1,0 +1,40 @@
+{
+    "name": "nessworthy/amphp-simple-state-machine",
+    "description": "Simple state machine, supports amphp promises.",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "amphp/amp": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "amphp/phpunit-util": "^1.4"
+    },
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Sean Nessworthy",
+            "email": "sean@nessworthy.me",
+            "homepage": "https://nessworthy.me",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "email": "sean@nessworthy.me",
+        "issues": "https://github.com/nessworthy/amphp-simple-state-machine/issues",
+        "source": "https://github.com/nessworthy/amphp-simple-state-machine"
+    },
+    "homepage": "https://github.com/nessworthy/amphp-simple-state-machine",
+    "readme": "README.md",
+    "keywords": ["state", "amphp"],
+    "autoload": {
+        "psr-4": {
+            "Nessworthy\\AmpStateMachine\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nessworthy\\AmpStateMachine\\Test\\": "test"
+        }
+    }
+}
