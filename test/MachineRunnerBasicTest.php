@@ -1,10 +1,10 @@
 <?php declare(strict_types=1);
 
-namespace Nessworthy\AmpStateMachine\Test;
+namespace Nessworthy\AmphpSimpleStateMachine\Test;
 
 use Amp\PHPUnit\AsyncTestCase;
-use Nessworthy\AmpStateMachine\MachineRunner;
-use Nessworthy\AmpStateMachine\InvalidStartingStateException;
+use Nessworthy\AmphpSimpleStateMachine\MachineRunner;
+use Nessworthy\AmphpSimpleStateMachine\InvalidStartingStateException;
 use stdClass;
 
 class MachineRunnerBasicTest extends AsyncTestCase

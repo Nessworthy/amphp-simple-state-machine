@@ -1,12 +1,12 @@
 <?php declare(strict_types=1);
 
-namespace Nessworthy\AmpStateMachine\Test;
+namespace Nessworthy\AmphpSimpleStateMachine\Test;
 
 use Amp\PHPUnit\AsyncTestCase;
 use Amp\Promise;
-use Nessworthy\AmpStateMachine\MachineRunner;
-use Nessworthy\AmpStateMachine\State;
-use Nessworthy\AmpStateMachine\StateMachineExecutionException;
+use Nessworthy\AmphpSimpleStateMachine\MachineRunner;
+use Nessworthy\AmphpSimpleStateMachine\State;
+use Nessworthy\AmphpSimpleStateMachine\StateMachineExecutionException;
 use RuntimeException;
 use stdClass;
 

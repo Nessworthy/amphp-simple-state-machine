@@ -1,15 +1,15 @@
 <?php declare(strict_types=1);
 
-namespace Nessworthy\AmpStateMachine\Test;
+namespace Nessworthy\AmphpSimpleStateMachine\Test;
 
 use Amp\PHPUnit\AsyncTestCase;
 use Amp\Promise;
 use Amp\Success;
 use Generator;
-use Nessworthy\AmpStateMachine\InvalidTransitionStateException;
-use Nessworthy\AmpStateMachine\MachineRunner;
-use Nessworthy\AmpStateMachine\InvalidStartingStateException;
-use Nessworthy\AmpStateMachine\State;
+use Nessworthy\AmphpSimpleStateMachine\InvalidTransitionStateException;
+use Nessworthy\AmphpSimpleStateMachine\MachineRunner;
+use Nessworthy\AmphpSimpleStateMachine\InvalidStartingStateException;
+use Nessworthy\AmphpSimpleStateMachine\State;
 use stdClass;
 
 class MachineRunnerSimpleStateTest extends AsyncTestCase

@@ -29,12 +29,12 @@
     "keywords": ["state", "amphp"],
     "autoload": {
         "psr-4": {
-            "Nessworthy\\AmpStateMachine\\": "src"
+            "Nessworthy\\AmphpSimpleStateMachine\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Nessworthy\\AmpStateMachine\\Test\\": "test"
+            "Nessworthy\\AmphpSimpleStateMachine\\Test\\": "test"
         }
     }
 }
