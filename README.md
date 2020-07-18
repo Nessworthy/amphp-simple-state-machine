@@ -13,7 +13,7 @@ composer require nessworthy/amphp-simple-state-machine
 
 ## Usage Example
 
-```php7
+```php
 // Define your states - they must implement the State interface. 
 $exampleState = new class implements \Nessworthy\AmphpSimpleStateMachine\State {
     public function execute(stdClass $stateData) : \Amp\Promise {
